@@ -33,4 +33,12 @@ def calculator():
         else:
             print("Invalid operation choice. \n"
                   "Please select 1, 2, 3, or 4.")
+            
+        check = input("\nDo you want to try again? (yes/no): ").strip().lower()
+
+        if check != 'yes':
+            print("Thank you!")
+            break
+
+
 calculator()

@@ -19,4 +19,6 @@ def calculator():
                     print(f"Result: {num1 + num2}")
                 elif choice == '2':
                     print(f"Result: {num1 - num2}")
+                elif choice == '3':
+                    print(f"Result: {num1 * num2}")
 calculator()

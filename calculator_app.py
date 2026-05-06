@@ -25,9 +25,12 @@ def calculator():
                     if num2 == 0:
                         raise ZeroDivisionError("Cannot divide by zero.")
                     print(f"Result: {num1 / num2}")
-                    
+
             except ValueError:
                 print("Error: Please enter valid numeric values.")
             except ZeroDivisionError as e:
                 print(f"Error: {e}")
+        else:
+            print("Invalid operation choice. \n"
+                  "Please select 1, 2, 3, or 4.")
 calculator()
